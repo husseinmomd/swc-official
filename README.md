@@ -22,7 +22,6 @@ To get started with Somalis Who Code, follow these steps:
 5. Follow influential figures and stay updated with their work.
 6. If you're seeking mentorship, browse through the list of available mentors and reach out to them.
 7. Showcase your projects and accomplishments by adding them to your portfolio.
-8. Engage with the community, participate in discussions, and contribute to the growth of the Somali developer ecosystem.
 
 ## Contributing
 
@@ -48,10 +47,6 @@ Join our vibrant community of Somali developers on social media:
 - [Facebook](https://www.facebook.com/somaliswhocode)
 
 Stay connected, share your experiences, and collaborate with other members of the Somalis Who Code community.
-
-## License
-
-The Somalis Who Code project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the codebase according to the terms of this license.
 
 ---
 
