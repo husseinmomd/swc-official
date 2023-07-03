@@ -20,3 +20,4 @@ export * from "./BlogForm";
 export * from "./ProfileCardPreview";
 export * from "./AboutProfile";
 export * from "./JobMobile";
+export * from "./Blog";

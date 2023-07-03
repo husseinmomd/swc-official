@@ -1,6 +1,6 @@
 import { TabNav, Hero, Cards } from "../components";
-import { Blog } from "../layout";
 import { Box, Stack } from "@mui/material";
+import { Blog } from "../components";
 
 const Home: React.FC = () => {
   return (

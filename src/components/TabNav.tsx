@@ -5,9 +5,6 @@ import { skills } from "../data";
 export const TabNav: React.FC = () => {
   const { addSkill, removeSkill, storeSkills, setSkill } = useSkillStore();
 
-  console.log(storeSkills);
-
-  console.log(storeSkills);
   return (
     <Box>
       <Tabs
@@ -28,16 +25,7 @@ export const TabNav: React.FC = () => {
                 addSkill(s);
                 setSkill(s);
               }}
-              // style={{
-              //   // color: storeSkills.includes(s) ? "black" : "white",
-              //   // background: storeSkills.includes(s) ? "#ccc" : "",
-              //   marginRight: "17px",
-              //   border: "1px solid #ccc",
-              //   borderRadius: "8px",
-              //   padding: "0px 20px",
-              // }}
               sx={{
-                // border: "1px solid #ccc",
                 bgcolor: storeSkills.includes(s) ? "#ccc" : "#333",
                 color: storeSkills.includes(s) ? "#000" : "#fff",
                 mr: "14px",
