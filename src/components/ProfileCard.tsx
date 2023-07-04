@@ -76,6 +76,42 @@ export const ProfileCard: React.FC<Prop> = ({ profile }) => {
           >
             {profile.bio && profile.bio.substring(0, 35)}...
           </Typography>
+          {profile?.skills?.length === 1 ? (
+            <></>
+          ) : (
+            <Box pt={"10px"} display={"flex"} gap={1.4} alignItems={"center"}>
+              {profile?.skills?.slice(0, 2).map((skill) => (
+                <Typography
+                  fontSize={"10px"}
+                  sx={{
+                    border: "1px solid #ddd",
+                    px: 0.8,
+                    py: 0.4,
+                    borderRadius: 3,
+                  }}
+                >
+                  {skill}
+                </Typography>
+              ))}
+
+              {profile?.skills?.length > 2 && (
+                <Typography
+                  sx={{
+                    bgcolor: "#ccc",
+                    fontWeight: "bold",
+                    color: "#1b1b1b",
+                    borderRadius: "50%",
+                    px: 0.4,
+                    py: 0.2,
+                  }}
+                  fontSize={"10px"}
+                >
+                  +{profile?.skills?.length - 2}
+                </Typography>
+              )}
+            </Box>
+          )}
+
           <CardActions sx={{ mt: 2, mx: 0, p: 0, mb: 1 }}>
             {profile.github && <GitHubIcon fontSize="small" />}
             {profile.linkedIn && <LinkedInIcon fontSize="small" />}
