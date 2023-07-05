@@ -77,7 +77,21 @@ export const ProfileCard: React.FC<Prop> = ({ profile }) => {
             {profile.bio && profile.bio.substring(0, 35)}...
           </Typography>
           {profile?.skills?.length === 1 ? (
-            <></>
+            <Box pt={"10px"} display={"flex"} gap={1.4} alignItems={"center"}>
+              {profile?.skills?.map((skill) => (
+                <Typography
+                  fontSize={"10px"}
+                  sx={{
+                    border: "1px solid #ddd",
+                    px: 0.8,
+                    py: 0.4,
+                    borderRadius: 3,
+                  }}
+                >
+                  {skill}
+                </Typography>
+              ))}
+            </Box>
           ) : (
             <Box pt={"10px"} display={"flex"} gap={1.4} alignItems={"center"}>
               {profile?.skills?.slice(0, 2).map((skill) => (
