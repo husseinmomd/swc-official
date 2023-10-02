@@ -15,7 +15,7 @@ Somalis Who Code is an online platform created specifically for Somali developer
 
 To get started with Somalis Who Code, follow these steps:
 
-1. Visit our website at [www.somaliswhocode.com](https://www.somaliswhocode.com).
+1. Visit our website at [www.somaliswhocode.com](https://somaliswhocode-official.vercel.app).
 2. Sign up for an account to create your profile.
 3. Customize your profile by adding your skills, interests, and a brief bio.
 4. Start exploring and connecting with other members.
